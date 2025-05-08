@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (email && password) {
         alert(`Bem-vindo ao Hanniker Point, ${email}!`);
       } else {
-        alert('Por favor, preencha todos os campos.');
+        alert('Por favor, preencha todos os campos!');
       }
     });
   });
