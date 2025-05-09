@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadastro de Servidor - Hanniker</title>
+  <link rel="stylesheet" href="/resgister-servidor.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <div class="logo">
+        <h1>Hanniker - Controle de Ponto</h1>
+        <h2 class="subtitle">Cadastro</h2>
+      </div>
+
+      <form id="servidorForm" class="login-form">
+        <label for="name">Nome completo</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="matricula">Matrícula</label>
+        <input type="text" id="matricula" name="matricula" required />
+
+        <button type="submit">Cadastrar Servidor</button>
+      </form>
+
+      <p class="info">
+        <a href="/admin-dashboard.html">Já possui cadastro? </a>
+      </p>
+    </div>
+  </div>
+
+  <script type="module" src="register-servidor.js"></script>
+</body>
+</html>
